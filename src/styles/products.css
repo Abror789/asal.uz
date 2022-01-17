@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+.products{
+    margin-top: 100px;
+}
+.products .col-6{
+    margin-top: 10px;
+}
+.products .info h2{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Kodchasan', sans-serif;
+    margin-bottom: 50px;
+}
+.products .info a{
+    color: #E58211;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: none;
+}
+.products .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.products .card{
+    background-color: #fdf6ee;
+    border: none;
+    border-radius: 0;
+    height: 100%;
+}
+.products .card-body{
+    display: flex;
+
+}
+.products .first h4{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
+    margin-bottom: 20px;
+
+}
+.products .first h6{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
+    color: #E58211;
+    margin-top: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.products .first p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.products .first button{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #E58211;
+    border: 2px solid #E58211;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Kodchasan', sans-serif;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.products .first button:hover{
+    background-color: #E58211;
+    color:#fdf6ee ;
+}
+.products .first{
+    flex:0 0 60%;
+    max-width: 60%;
+    padding-top: 40px;
+}
+.products .second{
+    flex:0 0 40%;
+    max-width: 40%;
+    padding-top: 40px;
+}
+.products .second{
+    text-align: center;
+}
+.products .second img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.react-responsive-modal-root .react-responsive-modal-modal{
+    border-radius: 16px;
+    background: linear-gradient(to right, #ff9d2d 0%, #ffd877 100%);
+}
+.react-responsive-modal-root .more {
+    border-radius: 10px;
+}
+.react-responsive-modal-root .more .more-title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
+    color: #000000;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.react-responsive-modal-root .more .price{
+    border-radius: 16px;
+    padding: 5px 15px;
+    background-color: #E58211;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+.react-responsive-modal-root .more .more-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.react-responsive-modal-root .more .more-main-img {
+    height: 250px;
+    width: 100% !important;
+    margin: 15px 0;
+    border-radius: 16px;
+    overflow: hidden!important;
+}
+.react-responsive-modal-root .more .more-main-img img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    /*-webkit-object-fit: contain;*/
+    /*object-fit: contain;*/
+    border-radius: 16px!important;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+/*.react-responsive-modal-root .more .more-main-img img:hover{*/
+/*    transform: scale(1.1);*/
+/*    border: none;*/
+/*}*/
+
+.react-responsive-modal-root .more .more-images-div{
+    display: flex;
+    margin-top: 30px;
+}
+.react-responsive-modal-root .more .more-images-div .more-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+
+}
+.react-responsive-modal-root .more .more-images-div .active{
+    border: 2px solid #000000;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+
+.about{
+    margin-top: 100px;
+}
+.about .row{
+    align-items: center;
+}
+.about .container .first{
+    position: relative;
+}
+.about .first .img1{
+    position: absolute;
+    top: 10px;
+    left:-25px;
+}
+.about .first .img1 img{
+    width: 579px;
+    height: 555px;
+}
+.about .first .img2 img{
+    width: 579px;
+    height: 555px;
+}
+.about .first .img3 img{
+    width: 324px;
+    height: 443px;
+}
+.about .second-row .first .img3 img{
+    width: 324px;
+    height: 343px;
+}
+.about .first .img4 img{
+    width: 100%;
+}
+.about .first .img3{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.about .second-row .first .img3{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.about .first .img4{
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+}
+.about .second{
+    padding-right: 72px;
+}
+.about .second h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Kodchasan', sans-serif;
+    margin-bottom: 30px;
+}
+.about .second p{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
+}
+.about .second button{
+    padding: 15px 40px;
+    color: #ffffff;
+    background-color: #E58311;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kodchasan', sans-serif;
+    border: none;
+    margin-top: 50px;
+}
+.about .second-row{
+    margin-top: 100px;
+}

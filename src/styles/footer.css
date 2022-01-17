@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+.footer{
+    margin-top: 130px;
+    background: linear-gradient(to right, #ff9d2d 0%, #ffd877 100%);
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    align-items: center;
+}
+.footer .container p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Kodchasan', sans-serif;
+    margin-bottom: 0!important;
+}
+.footer .socials img{
+    margin-left: 40px;
+}
+.footer .download img:last-child{
+    margin-left: 20px;
+}

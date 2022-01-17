@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+
+.main{
+    z-index: 999;
+    padding: 0 30px;
+}
+.main .container-fluid{
+    background: linear-gradient(to right, #ff9d2d 0%, #ffd877 100%);
+    border-radius: 30px;
+}
+.main .row{
+    align-items: center;
+    padding-top: 124px;
+    padding-bottom: 91px;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.main .row .right img{
+    width: 100%;
+}
+.main .left{
+    position: relative;
+    z-index: 999;
+}
+.main .left .honey{
+    position: absolute;
+    top: -95px;
+    left: -42px;
+    z-index: 999;
+}
+.main .row .left h2{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 90px;
+    line-height: 130px;
+    font-weight: 700;
+}
+.main .row .left .bee-text{
+    display: flex;
+    margin-left: 170px;
+}
+.main .row .left .bee-text img{
+    border-bottom: 2px solid #000;
+}
+.main .row .left .bee-text h2{
+    margin-left: 80px;
+}
+.main .row .left .first-text{
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+.main .row .left .second-text{
+    margin-left: 270px;
+    margin-bottom: 0!important;
+}
+.main .left .buttons{
+    display: flex;
+    margin-top: 93px;
+    margin-left: 177px;
+}
+.main .left  a{
+    padding: 18px 50px;
+    background-color: transparent;
+    font-weight: 700;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease-in-out;
+}
+.main .left  a:hover{
+    transform: translateY(-6px);
+}
+.main .left  a:first-child{
+    margin-right: 30px;
+    color: #fff;
+    background-color: #000;
+}
+.main .left  a:first-child i{
+    opacity: 0;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+.main .left  a:last-child i{
+    opacity: 0;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+.main .left  a:first-child:hover{
+    background-color: transparent;
+    color: #000000;
+}
+.main .left  a:last-child:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.main .left  a:last-child {
+    transition: all 0.5s ease-in-out;
+}
+.main .left  a:last-child:hover {
+    color: #ffffff!important;
+}
+.main .left  a:first-child {
+    transition: all 0.5s ease-in-out;
+}
+.main .left  a:first-child:hover {
+    color: #000000!important;
+}
+.main .left  a:first-child:hover i{
+    opacity: 1;
+}
+.main .left  a:last-child:hover i{
+    opacity: 1;
+}

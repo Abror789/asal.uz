@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+.about_main{
+    margin-top: 80px;
+}
+.about_main .card{
+    border: 2px solid #E58211;
+    border-radius: 10px;
+}
+.about_main .card-body img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.about_main .card-body h1{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about_main .card-body p{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}

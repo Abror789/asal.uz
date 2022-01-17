@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600;700&display=swap');
+/*font-family: 'Kodchasan', sans-serif;*/
+.shops{
+    margin-top: 130px;
+}
+.shops .container h2{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.shops .react-multi-carousel-list{
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.shops .react-multi-carousel-list .react-multi-carousel-track .react-multi-carousel-item img{
+    width: 90%;
+    height: 200px;
+    object-fit: contain;
+}
+.shops .react-multi-carousel-list .react-multiple-carousel__arrow{
+    display: none;
+}
+.shops .react-multi-carousel-list .react-multi-carousel-dot-list{
+
+}
+.shops .react-multi-carousel-list .react-multi-carousel-dot-list button{
+    width: 40px;
+    height: 10px;
+    border-radius: 0;
+    background-color: #ff9d2d;
+    border: none;
+}
+.shops .react-multi-carousel-list .react-multi-carousel-dot-list .react-multi-carousel-dot--active button{
+    background-color: #000000;
+}
